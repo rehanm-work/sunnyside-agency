@@ -7,7 +7,7 @@ const Header = () => {
 
   const handleClick = () => {
     window.scroll({
-      top: 787,
+      top: window.innerHeight,
       behavior: 'smooth',
     });
   };
