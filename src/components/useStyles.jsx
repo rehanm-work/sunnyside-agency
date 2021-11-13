@@ -3,10 +3,7 @@ import { makeStyles } from '@mui/styles';
 export const useStyles = makeStyles((theme) => ({
   header: {
     overflow: 'hidden',
-    height: '785px',
-    [theme.breakpoints.down(380)]: {
-      height: '100vh',
-    },
+    height: '100vh',
   },
   headerImg: {
     width: '100vw',
